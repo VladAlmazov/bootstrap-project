@@ -78,7 +78,7 @@ header, footer {
 
 /*О курсе*/
 
-.about {
+.about, .program, .author, .buy {
     background-color: #eee;
 }
 
@@ -111,6 +111,39 @@ header, footer {
     border: 3px solid var(--color1);
 }
 
+/*Программа курса*/
+.accordion-button:not(.collapsed) {
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/*Процесс обучения*/
+.learning h5 {
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
+
+/*Об авторе*/
+.author {
+    padding-bottom: 5px;
+}
+.author-photo {
+    max-width: 260px;
+    max-height: 260px;
+}
+
+/*Отзывы*/
+.reviews-photo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+}
 /*Цвета*/
 .color1 {
     color: var(--color1)
