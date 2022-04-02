@@ -3,7 +3,7 @@
     --color2: #52339a;
 }
 
-header, footer, section {
+section {
     padding: 100px 0;
 }
 
@@ -78,7 +78,10 @@ header, footer {
 
 /*О курсе*/
 
-.about, .program, .author, .buy {
+.about,
+.program,
+.author,
+.buy {
     background-color: #eee;
 }
 
@@ -144,6 +147,13 @@ header, footer {
     max-height: 200px;
     max-width: 200px;
 }
+
+/*Подвал*/
+
+footer {
+    padding: 30px 0;
+}
+
 /*Цвета*/
 .color1 {
     color: var(--color1)
